@@ -1,5 +1,5 @@
 import {BrowserRouter,Routes,Route} from "react-router-dom"
-import Login from "./Components/login"
+import Login from "./Components/Login"
 import Signup from "./Components/Signup"
 import Welcome from "./Components/Welcome"
 
