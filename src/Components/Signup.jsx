@@ -20,7 +20,7 @@ function Signup() {
                     alert("please fill all the field")
                 }
                 else {
-                    axios.post("http://localhost:3000/signup", {
+                    axios.post("https://backend-khaki-nine-39.vercel.app/signup", {
                         "username": email,
                         "password": password
                     }).then((msg) => {
@@ -35,4 +35,5 @@ function Signup() {
         </form>
     )
 }
+
 export default Signup;
